@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+  --background:#37474F;
+  --maincolor:#29B6F6;
+  --textcolor:#ECEFF1;
+}
+
+#title {
+margin-bottom: -0.1rem;
+  height: 300px;
+  width: 500px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  background-color: var(--background);
+}
+
+#puzzle-container{
+  position: relative;
+  width: 50vh;
+  height: 50vh;
+  border-radius: 8px;
+  border: 3px solid var(--textcolor);
+  box-shadow: 0px 8px 0px var(--background);
+  padding-left: auto;
+  padding-right: auto ;
+}
+
+.puzzle_block{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 33.4%;
+  height: 33.4%;
+   align-items:center;
+   padding-top:1%;
+   cursor: pointer;
+   user-select: none;
+   transition: left 0.3s, top 0.3s;
+}
+/*difficulty container*/
+#difficulty_container{
+  display:flex;
+  flex-direction:row;
+  width:50vh;
+  height:10vh;
+  background-color:var(--maincolor);
+  border-radius:10px;
+  margin-top:1rem;
+  padding-bottom: 5rem;
+  margin-bottom: 10rem;
+}
+img{
+  max-width: 96%;
+}
+
+.difficulty_button{
+  flex-grow:3;
+  background-color:inherit;
+  color:var(--textcolor);
+  text-align:center;
+  font-size:3vh;
+  font-weight:bold;
+  padding-top:5%;
+  margin: 0.5em;
+  cursor: pointer;
+  transition:font-size 0.3s;
+ 
+}
+.difficulty_button:hover{
+  opacity:0.8;
+  font-size:3.5vh;
+} 
+.difficulty_button.active{
+  background-color:inherit;
+  color:var(--background);
+}

@@ -13,6 +13,7 @@ class Game{
         this.count=this.cols*this.rows;
         this.blocks=document.getElementsByClassName("puzzle_block");//grab the blocks
         this.init();
+    
     }
 
     init(){//position each block in its proper position
@@ -90,11 +91,11 @@ class Game{
 
 }
 
-var game=new Game(1);//instantiate a new Game
+let game=new Game(1);//instantiate a new Game
 
 
 //taking care of the difficulty buttons
-var difficulty_buttons=Array.from(document.getElementsByClassName("difficulty_button"));
+let difficulty_buttons=Array.from(document.getElementsByClassName("difficulty_button"));
 difficulty_buttons.forEach((elem,idx)=>{
     elem.addEventListener('click',(e)=>{
         difficulty_buttons[GameDifficulty.indexOf(game.difficulty)].classList.remove("active");

@@ -1,7 +1,13 @@
 # 5.0-Game-FAC
 # Doremon puzzle Game.
 - For the following project game, I used one of charcter name Doremon cartoon/anime back from my childhood, as the piece of puzzle for the game project. The following project consist use of HTML, CSS and Javascripts in order for the game functions.
-- HTML is used to lay out the basic foundation of the project using the piece of cut out of the images tagged with the ID as a main parent and class the child element to the project.
+- This HTML code represents a game project, which includes a puzzle board and a difficulty selection container. The game's title is "Game Project," and it includes an image of the Doraemon logo.
+
+- The puzzle board consists of eight puzzle blocks that display images numbered 1 to 8. The puzzle blocks are contained in a "puzzle-container" div, which is styled     using an external stylesheet called "styles.css."
+
+- The difficulty selection container is contained in a div with the id "difficulty_container." It consists of three buttons labeled "Easy," "Medium," and "Hard." The -   purpose of these buttons is to allow the user to choose the difficulty level of the puzzle.
+
+- The script.js file is linked to the HTML document, which suggests that it contains the game's functionality. This game is expected to have the user select the -       difficulty level, shuffle the puzzle blocks randomly, and the user then re-arranges the blocks to match the original image.
 
 
 # Planning 

@@ -12,7 +12,7 @@
 
 # Planning 
 ![10](https://user-images.githubusercontent.com/100795708/226334717-3280038c-2038-4860-adb1-6263271957ee.jpg).
-- To begin the product planning process, the first step would be to define the product vision. The vision for this product could be to provide users with an entertaining and challenging puzzle game that features a popular character and provides options for different levels of difficulty.
+- To begin the planning process, the first step would be to define the product vision. The vision for this product could be to provide users with an entertaining and challenging puzzle game that features a popular character and provides options for different levels of difficulty.
 
 - The next step would be to determine the product features and specifications. This could include analyzing similar puzzle games on the market, gathering feedback from potential users, and considering the technical feasibility of the game. The product could include features such as:
 
